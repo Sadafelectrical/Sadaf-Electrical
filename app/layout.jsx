@@ -1,0 +1,107 @@
+import './globals.css';
+import FloatingContact from '../components/FloatingContact';
+
+const siteUrl = 'https://www.sadafconstructions.com';
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1.0,
+  themeColor: '#0a6fdb',
+};
+
+export const metadata = {
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: 'Sadaf Constructions and Renovations | Build · Renovate · Improve',
+    template: '%s | Sadaf Constructions and Renovations',
+  },
+  description: 'Sadaf Constructions and Renovations – plumbing, electrical, carpentry, home renovation, construction, fabrication and CCTV installation in Dubai, UAE. Free on-site quote, 1-year workmanship warranty.',
+  keywords: [
+    'home renovation Dubai',
+    'construction company Dubai',
+    'plumbing services Dubai',
+    'electrical services Dubai',
+    'carpentry Dubai',
+    'CCTV installation Dubai',
+    'villa renovation UAE',
+    'apartment renovation Dubai',
+    'Sadaf Constructions',
+  ],
+  authors: [{ name: 'Sadaf Constructions and Renovations' }],
+  alternates: {
+    canonical: '/',
+  },
+  icons: {
+    icon: '/sadaf-logo.png',
+    shortcut: '/sadaf-logo.png',
+    apple: '/sadaf-logo.png',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: siteUrl,
+    siteName: 'Sadaf Constructions and Renovations',
+    title: 'Sadaf Constructions and Renovations | Build · Renovate · Improve',
+    description: 'Plumbing, electrical, carpentry, home renovation, construction, fabrication and CCTV installation in Dubai, UAE. Free on-site quote, 1-year workmanship warranty.',
+    images: [
+      {
+        url: '/sadaf-logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sadaf Constructions and Renovations',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sadaf Constructions and Renovations | Build · Renovate · Improve',
+    description: 'Plumbing, electrical, carpentry, home renovation, construction, fabrication and CCTV installation in Dubai, UAE.',
+    images: ['/sadaf-logo.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+};
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HomeAndConstructionBusiness',
+  name: 'Sadaf Constructions and Renovations',
+  image: `${siteUrl}/sadaf-logo.png`,
+  url: siteUrl,
+  telephone: '+971501234567',
+  email: 'info@sadafconstructions.com',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Dubai',
+    addressCountry: 'AE',
+  },
+  areaServed: 'Dubai, UAE',
+  priceRange: '$$',
+  openingHours: 'Mo-Sa 08:00-18:00',
+  sameAs: [],
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
+      <body>
+        {children}
+        <FloatingContact />
+      </body>
+    </html>
+  );
+}
