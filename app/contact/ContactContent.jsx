@@ -226,7 +226,7 @@ export default function ContactContent() {
                   CONTACT US
                 </div>
 
-                <h1 className="text-[46px] sm:text-[60px] lg:text-[72px] font-extrabold text-[#0c1b2f] leading-[1.05] mb-5 tracking-tight">
+                <h1 className="h2-title text-[28px] sm:text-[38px] md:text-[44px] lg:text-[52px] leading-[1.18] sm:leading-[1.15] text-[#111827] mb-4 sm:mb-6 font-extrabold break-words">
                   Get in Touch
                 </h1>
 
@@ -272,12 +272,12 @@ export default function ContactContent() {
               </div>
 
               {/* Right Column: Image shown only on mobile/tablet (full-bleed version handles desktop) */}
-              <div className="lg:hidden flex justify-center items-center">
-                <div className="relative w-full max-w-[520px]">
+              <div className="lg:hidden flex justify-center items-center w-full">
+                <div className="relative w-full max-w-[520px] mx-auto aspect-[4/3] rounded-2xl overflow-hidden">
                   <img
                     src="/contact-banner.png"
                     alt="Sadaf Renovation Interior"
-                    className="w-full h-auto object-contain select-none pointer-events-none rounded-2xl"
+                    className="absolute inset-0 w-full h-full object-cover object-[68%_50%] select-none pointer-events-none"
                   />
                 </div>
               </div>
