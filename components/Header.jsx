@@ -61,14 +61,17 @@ export default function Header() {
 
   return (
     <header className={`header sticky top-0 z-[100] bg-[rgba(255,255,255,0.96)] backdrop-blur-md transition-shadow duration-200 ${isScrolled ? 'scrolled shadow-[0_2px_16px_rgba(17,24,39,0.08)]' : ''}`} id="header">
-      <div className="container-custom flex items-center justify-between h-[82px] max-[600px]:h-[70px] gap-6">
-        <Link href="/" className="flex items-center gap-3" aria-label="Sadaf Constructions home" onClick={closeMenu}>
-          <img src="/sadaf-logo.png" alt="Sadaf Constructions" className="h-[64px] max-[600px]:h-[50px] w-auto object-contain" />
+      <div className="container-custom flex items-center justify-between h-[98px] max-[600px]:h-[82px] gap-6">
+        <Link href="/" className="flex flex-col items-center shrink-0" aria-label="Sadaf Constructions and Renovations home" onClick={closeMenu}>
+          <img src="/sadaf-logo-new.png" alt="Sadaf Constructions" className="h-[56px] max-[600px]:h-[44px] w-auto object-contain" />
+          <span className="text-[13px] max-[600px]:text-[11px] font-bold tracking-wide text-[#111827] whitespace-nowrap mt-1">
+            Constructions &amp; Renovations
+          </span>
         </Link>
 
         {/* Desktop & Mobile Navigation Links */}
         <nav
-          className={`nav-links flex gap-[38px] max-[992px]:fixed max-[992px]:top-[82px] max-[600px]:top-[70px] max-[992px]:left-0 max-[992px]:right-0 max-[992px]:bg-white max-[992px]:flex-col max-[992px]:gap-0 max-[992px]:px-6 max-[992px]:pb-6 max-[992px]:shadow-[0_12px_24px_rgba(17,24,39,0.08)] transition-all duration-200 ${
+          className={`nav-links flex gap-[38px] max-[992px]:fixed max-[992px]:top-[98px] max-[600px]:top-[82px] max-[992px]:left-0 max-[992px]:right-0 max-[992px]:bg-white max-[992px]:flex-col max-[992px]:gap-0 max-[992px]:px-6 max-[992px]:pb-6 max-[992px]:shadow-[0_12px_24px_rgba(17,24,39,0.08)] transition-all duration-200 ${
             isMenuOpen
               ? 'max-[992px]:translate-y-0 max-[992px]:opacity-100 max-[992px]:visible'
               : 'max-[992px]:-translate-y-3 max-[992px]:opacity-0 max-[992px]:invisible'
@@ -109,8 +112,8 @@ export default function Header() {
 
             {/* Dropdown Panel */}
             <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 opacity-0 invisible -translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-250 z-50">
-              <div className="w-[600px] bg-white rounded-2xl shadow-[0_20px_50px_rgba(17,24,39,0.16)] border border-[#e5e9f0] overflow-hidden">
-                <div className="grid grid-cols-2 gap-1 p-4">
+              <div className="w-[780px] max-w-[90vw] bg-white rounded-2xl shadow-[0_20px_50px_rgba(17,24,39,0.16)] border border-[#e5e9f0] overflow-hidden">
+                <div className="grid grid-cols-3 gap-1 p-4 max-h-[65vh] overflow-y-auto">
                   {servicesList.map((service) => (
                     <Link
                       key={service.slug}

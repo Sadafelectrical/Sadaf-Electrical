@@ -5,6 +5,7 @@ import Header from '../../../components/Header';
 import Footer from '../../../components/Footer';
 import BackToTop from '../../../components/BackToTop';
 import { servicesList } from '../../../components/servicesData';
+import ServiceCard from '../../../components/ServiceCard';
 import {
   IconCheck,
   IconPhone,
@@ -17,8 +18,9 @@ export function generateStaticParams() {
   return servicesList.map((service) => ({ slug: service.slug }));
 }
 
-export function generateMetadata({ params }) {
-  const service = servicesList.find((s) => s.slug === params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const service = servicesList.find((s) => s.slug === slug);
   if (!service) return {};
   return {
     title: `${service.title} | Sadaf Constructions and Renovations`,
@@ -26,11 +28,12 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function ServiceDetailPage({ params }) {
-  const service = servicesList.find((s) => s.slug === params.slug);
+export default async function ServiceDetailPage({ params }) {
+  const { slug } = await params;
+  const service = servicesList.find((s) => s.slug === slug);
   if (!service) notFound();
 
-  const related = servicesList.filter((s) => s.slug !== service.slug).slice(0, 3);
+  const related = servicesList.filter((s) => s.slug !== service.slug).slice(0, 4);
 
   return (
     <>
@@ -96,7 +99,7 @@ export default function ServiceDetailPage({ params }) {
                   Book Free Inspection
                 </Link>
                 <a
-                  href={`https://wa.me/971501234567?text=${encodeURIComponent(
+                  href={`https://wa.me/918618252233?text=${encodeURIComponent(
                     `Hi Sadaf Constructions, I would like to inquire about your ${service.title} service.`
                   )}`}
                   target="_blank"
@@ -172,11 +175,11 @@ export default function ServiceDetailPage({ params }) {
 
                   <div className="border-t border-[#f1f5f9] pt-5 flex flex-col gap-2.5">
                     <a
-                      href="tel:+971501234567"
+                      href="tel:+918618252233"
                       className="btn btn-primary text-[13.5px] py-3 px-4 rounded-lg w-full text-center justify-center font-bold inline-flex items-center gap-2"
                     >
                       <IconPhone className="w-4 h-4" />
-                      Call +971 50 123 4567
+                      Call +91 86182 52233
                     </a>
                     <Link
                       href={`/contact?service=${encodeURIComponent(service.title)}`}
@@ -248,31 +251,9 @@ export default function ServiceDetailPage({ params }) {
               </h2>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-              {related.map((s) => (
-                <Link
-                  key={s.slug}
-                  href={`/services/${s.slug}`}
-                  className="group bg-white rounded-2xl overflow-hidden border border-[#e2e8f0] shadow-sm hover:shadow-xl hover:border-[#0a6fdb]/40 transition-all duration-300 block"
-                >
-                  <div className="relative aspect-square overflow-hidden bg-slate-100">
-                    <img
-                      src={s.image}
-                      alt={s.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/15" />
-                    <div className="absolute bottom-3 left-4 w-11 h-11 rounded-xl bg-white text-[#0a6fdb] flex items-center justify-center shadow-lg border border-white/90">
-                      {s.icon}
-                    </div>
-                  </div>
-                  <div className="p-5">
-                    <h3 className="text-[16px] font-extrabold text-[#111827] group-hover:text-[#0a6fdb] transition-colors">
-                      {s.title}
-                    </h3>
-                    <p className="text-[13px] text-[#8a94a6] mt-1">{s.tagline}</p>
-                  </div>
-                </Link>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-6">
+              {related.map((s, index) => (
+                <ServiceCard key={s.slug} service={s} index={index} />
               ))}
             </div>
 
@@ -309,7 +290,7 @@ export default function ServiceDetailPage({ params }) {
                 Book a Free Visit
               </Link>
               <a
-                href={`https://wa.me/971501234567?text=${encodeURIComponent(
+                href={`https://wa.me/918618252233?text=${encodeURIComponent(
                   `Hi Sadaf Constructions, I would like to get a quote for ${service.title}.`
                 )}`}
                 target="_blank"

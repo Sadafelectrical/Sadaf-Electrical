@@ -396,6 +396,47 @@ ul {
 .icon-brown { background: #8b5a45; }
 .icon-green { background: #507d57; }
 
+@media (max-width: 640px) {
+  .service-card {
+    padding-bottom: 14px;
+  }
+
+  .service-card .card-meta {
+    margin-top: -20px;
+    padding: 0 12px;
+    margin-bottom: 10px;
+  }
+
+  .service-card .icon-box {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    border-width: 3px;
+  }
+
+  .service-card .icon-box svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .service-card .card-num {
+    font-size: 11px;
+  }
+
+  .service-card .card-num::before {
+    width: 16px;
+  }
+
+  .service-card .body {
+    padding: 0 12px;
+  }
+
+  .service-card h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+}
+
 .services-footer {
   display: flex;
   align-items: center;

@@ -31,6 +31,22 @@ import {
   Handshake,
   Navigation,
   List,
+  Sofa,
+  Frame,
+  PaintRoller,
+  Layers,
+  Brush,
+  Grid3x3,
+  ChefHat,
+  Bath,
+  PanelTop,
+  LayoutPanelTop,
+  SquareStack,
+  Box,
+  GlassWater,
+  Palette,
+  Sparkles,
+  SprayCan,
 } from 'lucide-react';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa6';
 
@@ -164,4 +180,68 @@ export const IconNavigation = ({ className = "w-4 h-4", ...props }) => (
 
 export const IconList = ({ className = "w-4 h-4", ...props }) => (
   <List className={className} {...props} />
+);
+
+export const IconSofa = ({ className = "w-6 h-6", ...props }) => (
+  <Sofa className={className} {...props} />
+);
+
+export const IconWindow = ({ className = "w-6 h-6", ...props }) => (
+  <Frame className={className} {...props} />
+);
+
+export const IconPaintRoller = ({ className = "w-6 h-6", ...props }) => (
+  <PaintRoller className={className} {...props} />
+);
+
+export const IconTexture = ({ className = "w-6 h-6", ...props }) => (
+  <Layers className={className} {...props} />
+);
+
+export const IconPolish = ({ className = "w-6 h-6", ...props }) => (
+  <Brush className={className} {...props} />
+);
+
+export const IconTiles = ({ className = "w-6 h-6", ...props }) => (
+  <Grid3x3 className={className} {...props} />
+);
+
+export const IconKitchen = ({ className = "w-6 h-6", ...props }) => (
+  <ChefHat className={className} {...props} />
+);
+
+export const IconBath = ({ className = "w-6 h-6", ...props }) => (
+  <Bath className={className} {...props} />
+);
+
+export const IconCeiling = ({ className = "w-6 h-6", ...props }) => (
+  <PanelTop className={className} {...props} />
+);
+
+export const IconWallPanel = ({ className = "w-6 h-6", ...props }) => (
+  <LayoutPanelTop className={className} {...props} />
+);
+
+export const IconGrcPanel = ({ className = "w-6 h-6", ...props }) => (
+  <SquareStack className={className} {...props} />
+);
+
+export const IconCarton = ({ className = "w-6 h-6", ...props }) => (
+  <Box className={className} {...props} />
+);
+
+export const IconGlass = ({ className = "w-6 h-6", ...props }) => (
+  <GlassWater className={className} {...props} />
+);
+
+export const IconDecor = ({ className = "w-6 h-6", ...props }) => (
+  <Palette className={className} {...props} />
+);
+
+export const IconFloorPolish = ({ className = "w-6 h-6", ...props }) => (
+  <Sparkles className={className} {...props} />
+);
+
+export const IconCleaning = ({ className = "w-6 h-6", ...props }) => (
+  <SprayCan className={className} {...props} />
 );

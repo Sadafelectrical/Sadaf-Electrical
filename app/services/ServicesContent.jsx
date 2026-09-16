@@ -14,6 +14,7 @@ import {
   IconWhatsapp,
 } from '../../components/Icons';
 import { servicesList } from '../../components/servicesData';
+import ServiceCard from '../../components/ServiceCard';
 
 const services = servicesList;
 
@@ -122,7 +123,7 @@ export default function ServicesContent() {
                   Book Free Inspection
                 </Link>
                 <a
-                  href="https://wa.me/971501234567?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                  href="https://wa.me/918618252233?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20inquire%20about%20your%20services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn bg-[#25d366] text-white hover:bg-[#20ba59] border-transparent flex-1 min-w-0 sm:flex-none sm:w-auto sm:min-w-[170px] !py-3 sm:!py-3.5 !px-2.5 sm:!px-6 !text-[12.5px] sm:!text-[14.5px] !gap-1.5 shadow-md shadow-[#25d366]/20 text-center justify-center font-bold inline-flex items-center"
@@ -145,7 +146,7 @@ export default function ServicesContent() {
                 Everything Your Home Needs, Under One Roof
               </h2>
               <p className="text-[#4b5563] text-[15px]">
-                Browse our complete list of services below. Filter by category or explore all 8 disciplines.
+                Browse our complete list of services below. Filter by category or explore all 24 services.
               </p>
             </div>
 
@@ -159,7 +160,7 @@ export default function ServicesContent() {
                     : 'bg-white text-[#4b5563] border-[#e2e8f0] hover:bg-[#f1f5f9] hover:text-[#111827]'
                 }`}
               >
-                All Services (8)
+                All Services (24)
               </button>
               <button
                 onClick={() => setActiveTab('renovation')}
@@ -169,7 +170,7 @@ export default function ServicesContent() {
                     : 'bg-white text-[#4b5563] border-[#e2e8f0] hover:bg-[#f1f5f9] hover:text-[#111827]'
                 }`}
               >
-                Renovations &amp; Civil (3)
+                Home Renovations (4)
               </button>
               <button
                 onClick={() => setActiveTab('mep')}
@@ -189,7 +190,7 @@ export default function ServicesContent() {
                     : 'bg-white text-[#4b5563] border-[#e2e8f0] hover:bg-[#f1f5f9] hover:text-[#111827]'
                 }`}
               >
-                Carpentry &amp; Woodwork (1)
+                Carpentry &amp; Wood Polish (2)
               </button>
               <button
                 onClick={() => setActiveTab('civil')}
@@ -199,125 +200,64 @@ export default function ServicesContent() {
                     : 'bg-white text-[#4b5563] border-[#e2e8f0] hover:bg-[#f1f5f9] hover:text-[#111827]'
                 }`}
               >
+                Civil, Tiling &amp; Ceilings (4)
+              </button>
+              <button
+                onClick={() => setActiveTab('interior')}
+                className={`px-5 py-2.5 rounded-xl text-[13px] sm:text-[13.5px] font-bold transition-all duration-200 border whitespace-nowrap shrink-0 ${
+                  activeTab === 'interior'
+                    ? 'bg-[#0a6fdb] text-white border-[#0a6fdb] shadow-md shadow-[#0a6fdb]/20'
+                    : 'bg-white text-[#4b5563] border-[#e2e8f0] hover:bg-[#f1f5f9] hover:text-[#111827]'
+                }`}
+              >
+                Interior &amp; Decor (3)
+              </button>
+              <button
+                onClick={() => setActiveTab('painting')}
+                className={`px-5 py-2.5 rounded-xl text-[13px] sm:text-[13.5px] font-bold transition-all duration-200 border whitespace-nowrap shrink-0 ${
+                  activeTab === 'painting'
+                    ? 'bg-[#0a6fdb] text-white border-[#0a6fdb] shadow-md shadow-[#0a6fdb]/20'
+                    : 'bg-white text-[#4b5563] border-[#e2e8f0] hover:bg-[#f1f5f9] hover:text-[#111827]'
+                }`}
+              >
+                Painting &amp; Textures (2)
+              </button>
+              <button
+                onClick={() => setActiveTab('windows')}
+                className={`px-5 py-2.5 rounded-xl text-[13px] sm:text-[13.5px] font-bold transition-all duration-200 border whitespace-nowrap shrink-0 ${
+                  activeTab === 'windows'
+                    ? 'bg-[#0a6fdb] text-white border-[#0a6fdb] shadow-md shadow-[#0a6fdb]/20'
+                    : 'bg-white text-[#4b5563] border-[#e2e8f0] hover:bg-[#f1f5f9] hover:text-[#111827]'
+                }`}
+              >
+                Windows &amp; Glass (3)
+              </button>
+              <button
+                onClick={() => setActiveTab('maintenance')}
+                className={`px-5 py-2.5 rounded-xl text-[13px] sm:text-[13.5px] font-bold transition-all duration-200 border whitespace-nowrap shrink-0 ${
+                  activeTab === 'maintenance'
+                    ? 'bg-[#0a6fdb] text-white border-[#0a6fdb] shadow-md shadow-[#0a6fdb]/20'
+                    : 'bg-white text-[#4b5563] border-[#e2e8f0] hover:bg-[#f1f5f9] hover:text-[#111827]'
+                }`}
+              >
+                Polishing &amp; Cleaning (2)
+              </button>
+              <button
+                onClick={() => setActiveTab('fabrication')}
+                className={`px-5 py-2.5 rounded-xl text-[13px] sm:text-[13.5px] font-bold transition-all duration-200 border whitespace-nowrap shrink-0 ${
+                  activeTab === 'fabrication'
+                    ? 'bg-[#0a6fdb] text-white border-[#0a6fdb] shadow-md shadow-[#0a6fdb]/20'
+                    : 'bg-white text-[#4b5563] border-[#e2e8f0] hover:bg-[#f1f5f9] hover:text-[#111827]'
+                }`}
+              >
                 Fabrication &amp; Gates (1)
               </button>
             </div>
 
-            {/* ================= 3 CARDS PER ROW IN LAPTOP & DESKTOP (lg:grid-cols-3) ================= */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-              {filteredServices.map((service) => (
-                <div
-                  key={service.id}
-                  className="group bg-white rounded-2xl overflow-hidden border border-[#e2e8f0] shadow-sm hover:shadow-xl hover:border-[#0a6fdb]/40 transition-all duration-300 flex flex-col justify-between"
-                >
-                  <div>
-                    {/* Top Image Box with Tag Badges */}
-                    <div className="relative aspect-square overflow-hidden bg-slate-100">
-                      <img
-                        src={service.image}
-                        alt={service.title}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/15" />
-
-                      {/* Top Badges */}
-                      <div className="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between pointer-events-none">
-                        <span className="px-2.5 py-1 bg-white/90 backdrop-blur-md text-[#0a6fdb] text-[11px] font-extrabold rounded-md shadow-sm uppercase tracking-wide">
-                          {service.badge}
-                        </span>
-                        <span className="px-2.5 py-1 bg-[#111827]/85 backdrop-blur-md text-white text-[11.5px] font-bold rounded-md shadow-sm">
-                          #{service.id}
-                        </span>
-                      </div>
-
-                      {/* Floating Icon Box at bottom-left of image */}
-                      <div className="absolute bottom-3 left-4 w-11 h-11 rounded-xl bg-white text-[#0a6fdb] flex items-center justify-center shadow-lg border border-white/90">
-                        {service.icon}
-                      </div>
-
-                      {/* Timeline tag at bottom-right of image */}
-                      <div className="absolute bottom-3 right-4 px-2.5 py-1 rounded-md bg-white/95 backdrop-blur-xs text-[11px] font-semibold text-[#1e293b] shadow-xs">
-                        {service.timeline}
-                      </div>
-                    </div>
-
-                    {/* Card Content */}
-                    <div className="p-6 sm:p-7">
-                      <div className="text-[11.5px] font-bold uppercase tracking-wider text-[#0a6fdb] mb-1.5">
-                        {service.tagline}
-                      </div>
-                      <Link href={`/services/${service.slug}`}>
-                        <h3 className="text-[20px] font-extrabold text-[#111827] mb-3 group-hover:text-[#0a6fdb] transition-colors">
-                          {service.title}
-                        </h3>
-                      </Link>
-                      <p className="text-[#4b5563] text-[14px] leading-relaxed mb-5">
-                        {service.desc}
-                      </p>
-
-                      {/* Mini Feature Highlights */}
-                      <div className="flex flex-wrap gap-1.5 mb-5">
-                        {service.highlights.map((tag, tIdx) => (
-                          <span
-                            key={tIdx}
-                            className="px-2.5 py-0.5 rounded-md bg-[#f1f5f9] text-[#334155] text-[11.5px] font-medium"
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-
-                      {/* Feature Bullet Points */}
-                      <div className="border-t border-[#f1f5f9] pt-4 space-y-2.5">
-                        {service.features.map((feat, fIdx) => (
-                          <div key={fIdx} className="flex items-start gap-2.5 text-[13px] text-[#334155] font-medium">
-                            <div className="w-4 h-4 rounded-full bg-[#ecfdf5] text-[#059669] flex items-center justify-center shrink-0 mt-0.5">
-                              <IconCheck className="w-2.5 h-2.5 stroke-[3]" />
-                            </div>
-                            <span className="leading-snug">{feat}</span>
-                          </div>
-                        ))}
-                      </div>
-
-                      <Link
-                        href={`/services/${service.slug}`}
-                        className="inline-flex items-center gap-1.5 mt-5 text-[13px] font-bold text-[#0a6fdb] hover:text-[#0857ad] transition-colors"
-                      >
-                        View Full Details
-                      </Link>
-                    </div>
-                  </div>
-
-                  {/* Card Bottom CTA Actions */}
-                  <div className="px-6 pb-6 sm:px-7 sm:pb-7 pt-3 border-t border-[#f1f5f9] flex items-center gap-2 sm:gap-2.5">
-                    <Link
-                      href={`/contact?service=${encodeURIComponent(service.title)}`}
-                      className="btn btn-primary !text-[12.5px] sm:!text-[13px] !py-2.5 !px-2.5 sm:!px-4 rounded-lg flex-1 min-w-0 text-center justify-center font-bold"
-                    >
-                      Book Free Visit
-                    </Link>
-                    <a
-                      href={`https://wa.me/971501234567?text=${encodeURIComponent(
-                        `Hi Sadaf Renovations, I would like to inquire about your ${service.title} service.`
-                      )}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn bg-[#f0fdf4] text-[#16a34a] hover:bg-[#16a34a] hover:text-white border border-[#bbf7d0] !text-[13px] !py-2.5 !px-3 rounded-lg transition-colors shrink-0"
-                      title="Chat on WhatsApp"
-                      aria-label={`Chat about ${service.title} on WhatsApp`}
-                    >
-                      <IconWhatsapp className="w-4 h-4" />
-                    </a>
-                    <a
-                      href="tel:+971501234567"
-                      className="btn btn-outline !text-[13px] !py-2.5 !px-3 rounded-lg text-[#0a6fdb] border-[#bfdbfe] hover:bg-[#e8f1fc] shrink-0"
-                      title="Call Team Directly"
-                      aria-label="Call +971 50 123 4567"
-                    >
-                      <IconPhone className="w-4 h-4" />
-                    </a>
-                  </div>
-                </div>
+            {/* ================= 2 PER ROW ON PHONE, 4 PER ROW ON LAPTOP & DESKTOP ================= */}
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-6">
+              {filteredServices.map((service, index) => (
+                <ServiceCard key={service.id} service={service} index={index} />
               ))}
             </div>
           </div>
@@ -458,10 +398,10 @@ export default function ServicesContent() {
                   </p>
                   <div className="pt-2 flex flex-col sm:flex-row gap-2.5">
                     <a
-                      href="tel:+971501234567"
+                      href="tel:+918618252233"
                       className="btn btn-primary text-[13px] py-2.5 px-4 rounded-lg w-full sm:w-auto text-center justify-center font-bold"
                     >
-                      Call +971 50 123 4567
+                      Call +91 86182 52233
                     </a>
                     <Link
                       href="/contact"
@@ -541,7 +481,7 @@ export default function ServicesContent() {
                 Book a Free Visit
               </Link>
               <a
-                href="https://wa.me/971501234567?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20get%20a%20quote%20for%20my%20home."
+                href="https://wa.me/918618252233?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20get%20a%20quote%20for%20my%20home."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn bg-[#25d366] text-white hover:bg-[#20ba59] border-transparent font-bold flex-1 min-w-0 sm:flex-none sm:w-auto !px-2.5 sm:!px-8 !py-3 sm:!py-3.5 !text-[12.5px] sm:!text-[15px] !gap-1.5 rounded-full shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 text-center justify-center inline-flex items-center"

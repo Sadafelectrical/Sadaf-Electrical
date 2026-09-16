@@ -32,9 +32,9 @@ export const metadata = {
     canonical: '/',
   },
   icons: {
-    icon: '/sadaf-logo.png',
-    shortcut: '/sadaf-logo.png',
-    apple: '/sadaf-logo.png',
+    icon: '/sadaf-logo-new.png',
+    shortcut: '/sadaf-logo-new.png',
+    apple: '/sadaf-logo-new.png',
   },
   openGraph: {
     type: 'website',
@@ -45,7 +45,7 @@ export const metadata = {
     description: 'Plumbing, electrical, carpentry, home renovation, construction, fabrication and CCTV installation in Dubai, UAE. Free on-site quote, 1-year workmanship warranty.',
     images: [
       {
-        url: '/sadaf-logo.png',
+        url: '/sadaf-logo-new.png',
         width: 1200,
         height: 630,
         alt: 'Sadaf Constructions and Renovations',
@@ -56,7 +56,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Sadaf Constructions and Renovations | Build · Renovate · Improve',
     description: 'Plumbing, electrical, carpentry, home renovation, construction, fabrication and CCTV installation in Dubai, UAE.',
-    images: ['/sadaf-logo.png'],
+    images: ['/sadaf-logo-new.png'],
   },
   robots: {
     index: true,
@@ -74,10 +74,10 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'HomeAndConstructionBusiness',
   name: 'Sadaf Constructions and Renovations',
-  image: `${siteUrl}/sadaf-logo.png`,
+  image: `${siteUrl}/sadaf-logo-new.png`,
   url: siteUrl,
-  telephone: '+971501234567',
-  email: 'info@sadafconstructions.com',
+  telephone: '+918618252233',
+  email: 'sadafelectrical786@gmail.com',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Dubai',

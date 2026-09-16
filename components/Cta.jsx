@@ -23,10 +23,10 @@ export default function Cta() {
             Get in touch today for a free consultation and quote.
           </p>
           <div className="flex gap-4 flex-wrap" style={{ marginBottom: 0 }}>
-            <a href="tel:+971501234567" className="btn btn-primary min-w-[180px] max-[600px]:flex-1 max-[600px]:min-w-0">
+            <a href="tel:+918618252233" className="btn btn-primary min-w-[180px] max-[600px]:flex-1 max-[600px]:min-w-0">
               Get a Free Quote
             </a>
-            <a href="mailto:info@sadafconstructions.com" className="btn btn-outline min-w-[180px] max-[600px]:flex-1 max-[600px]:min-w-0">
+            <a href="mailto:sadafelectrical786@gmail.com" className="btn btn-outline min-w-[180px] max-[600px]:flex-1 max-[600px]:min-w-0">
               Contact Us
             </a>
           </div>

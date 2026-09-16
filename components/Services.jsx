@@ -20,7 +20,7 @@ const servicesData = [
     description: 'Repairs, installation and complete plumbing solutions.',
     icon: <IconDrop className="w-6 h-6 text-white" />,
     iconBg: 'icon-blue',
-    image: '/Services/Plumbing.png',
+    image: '/Services/Plumbing.webp',
     alt: 'Plumbing pipes under a sink',
   },
   {
@@ -40,7 +40,7 @@ const servicesData = [
     description: 'Custom woodwork, doors, wardrobes and more.',
     icon: <IconTools className="w-6 h-6 text-white" />,
     iconBg: 'icon-brown',
-    image: '/Services/Carpenter.png',
+    image: '/Services/Carpenter.webp',
     alt: 'Carpenter working with wood',
   },
   {
@@ -86,6 +86,7 @@ const servicesData = [
   {
     id: '08',
     slug: 'custom-projects',
+    href: '/services',
     title: 'And Much More',
     description: "We handle custom requests and specialized projects. Let's discuss your vision.",
     icon: <IconArrow className="w-6 h-6 text-white" />,
@@ -111,7 +112,7 @@ export default function Services() {
         </Reveal>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-6">
           {servicesData.map((service, index) => (
             <Reveal key={service.id} as="article" delay={(index % 4) * 90} className="service-card">
               <div className="img">
@@ -124,13 +125,19 @@ export default function Services() {
               <div className="body flex-1 flex flex-col justify-between">
                 <div>
                   <h3>{service.title}</h3>
-                  <p>{service.description}</p>
+                  <p className="hidden sm:block">{service.description}</p>
                 </div>
-                <div className="flex items-center gap-4 mt-6">
-                  <Link href={`/services/${service.slug}`} className="text-[13.5px] font-semibold text-[#0a6fdb] hover:text-[#0857ad] transition-colors">
+                <div className="flex items-center gap-1.5 sm:gap-3 mt-3 sm:mt-6">
+                  <Link
+                    href={service.href || `/services/${service.slug}`}
+                    className="btn btn-outline !text-[10.5px] sm:!text-[13px] !py-1.5 sm:!py-2.5 !px-1.5 sm:!px-4 rounded-md flex-1 min-w-0 text-center justify-center font-bold"
+                  >
                     View Details
                   </Link>
-                  <a href="/contact" className="learn-more !mt-0">
+                  <a
+                    href="/contact"
+                    className="btn btn-primary !text-[10.5px] sm:!text-[13px] !py-1.5 sm:!py-2.5 !px-1.5 sm:!px-4 rounded-md flex-1 min-w-0 text-center justify-center font-bold"
+                  >
                     Contact Now
                   </a>
                 </div>
