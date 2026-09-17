@@ -341,6 +341,12 @@ export default function ContactContent() {
                         >
                           +91 97419 31730
                         </a>
+                        <a
+                          href="tel:+918618252233"
+                          className="text-[15px] font-semibold text-[#111827] hover:text-[#0a6fdb] transition-colors block mt-0.5"
+                        >
+                          +91 86182 52233
+                        </a>
                         <span className="text-[12.5px] text-[#6b7280] block mt-0.5">
                           Mon - Sat, 8:00 AM - 6:00 PM
                         </span>
