@@ -61,7 +61,7 @@ Sent via Sadaf Website Contact Form`;
 
     const encodedText = encodeURIComponent(text);
     // Redirect to company WhatsApp
-    const whatsappUrl = `https://wa.me/918618252233?text=${encodedText}`;
+    const whatsappUrl = `https://wa.me/919900281433?text=${encodedText}`;
 
     setSubmitted(true);
 
@@ -324,22 +324,22 @@ export default function ContactContent() {
                       <div>
                         <h4 className="text-[14px] font-bold text-[#111827]">Call Us</h4>
                         <a
-                          href="tel:+918618252233"
-                          className="text-[15px] font-semibold text-[#111827] hover:text-[#0a6fdb] transition-colors block mt-0.5"
-                        >
-                          +91 86182 52233
-                        </a>
-                        <a
                           href="tel:+919900281433"
                           className="text-[15px] font-semibold text-[#111827] hover:text-[#0a6fdb] transition-colors block mt-0.5"
                         >
                           +91 99002 81433
                         </a>
                         <a
-                          href="tel:+919743555023"
+                          href="tel:+919742555023"
                           className="text-[15px] font-semibold text-[#111827] hover:text-[#0a6fdb] transition-colors block mt-0.5"
                         >
-                          +91 97435 55023
+                          +91 97425 55023
+                        </a>
+                        <a
+                          href="tel:+919741931730"
+                          className="text-[15px] font-semibold text-[#111827] hover:text-[#0a6fdb] transition-colors block mt-0.5"
+                        >
+                          +91 97419 31730
                         </a>
                         <span className="text-[12.5px] text-[#6b7280] block mt-0.5">
                           Mon - Sat, 8:00 AM - 6:00 PM
@@ -497,7 +497,7 @@ export default function ContactContent() {
                 <span>Get a Free Quote</span>
               </a>
               <a
-                href="https://wa.me/918618252233?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20get%20a%20quote%20for%20my%20project."
+                href="https://wa.me/919900281433?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20get%20a%20quote%20for%20my%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#25d366] hover:bg-[#20ba59] text-white font-bold py-3 sm:py-3.5 px-2.5 sm:px-8 rounded-full text-[12.5px] sm:text-[14.5px] shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 inline-flex items-center justify-center gap-1.5 sm:gap-2.5 flex-1 min-w-0 sm:flex-none"

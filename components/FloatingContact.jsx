@@ -43,7 +43,7 @@ export default function FloatingContact() {
     >
       {/* Call */}
       <a
-        href="tel:+918618252233"
+        href="tel:+919900281433"
         aria-label="Call us"
         className="group relative w-14 h-14 max-[600px]:w-10 max-[600px]:h-10 rounded-full bg-gradient-to-br from-[#0a6fdb] to-[#0c1b2f] text-white flex items-center justify-center shadow-[0_8px_24px_rgba(10,111,219,0.45)] ring-2 ring-white/40 hover:ring-white transition-all duration-300 hover:scale-110 hover:-rotate-6"
       >
@@ -60,7 +60,7 @@ export default function FloatingContact() {
 
       {/* WhatsApp */}
       <a
-        href="https://wa.me/918618252233"
+        href="https://wa.me/919900281433"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"

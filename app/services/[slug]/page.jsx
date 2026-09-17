@@ -99,7 +99,7 @@ export default async function ServiceDetailPage({ params }) {
                   Book Free Inspection
                 </Link>
                 <a
-                  href={`https://wa.me/918618252233?text=${encodeURIComponent(
+                  href={`https://wa.me/919900281433?text=${encodeURIComponent(
                     `Hi Sadaf Constructions, I would like to inquire about your ${service.title} service.`
                   )}`}
                   target="_blank"
@@ -175,11 +175,11 @@ export default async function ServiceDetailPage({ params }) {
 
                   <div className="border-t border-[#f1f5f9] pt-5 flex flex-col gap-2.5">
                     <a
-                      href="tel:+918618252233"
+                      href="tel:+919900281433"
                       className="btn btn-primary text-[13.5px] py-3 px-4 rounded-lg w-full text-center justify-center font-bold inline-flex items-center gap-2"
                     >
                       <IconPhone className="w-4 h-4" />
-                      Call +91 86182 52233
+                      Call +91 99002 81433
                     </a>
                     <Link
                       href={`/contact?service=${encodeURIComponent(service.title)}`}
@@ -290,7 +290,7 @@ export default async function ServiceDetailPage({ params }) {
                 Book a Free Visit
               </Link>
               <a
-                href={`https://wa.me/918618252233?text=${encodeURIComponent(
+                href={`https://wa.me/919900281433?text=${encodeURIComponent(
                   `Hi Sadaf Constructions, I would like to get a quote for ${service.title}.`
                 )}`}
                 target="_blank"

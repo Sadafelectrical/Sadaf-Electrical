@@ -171,7 +171,7 @@ export default function ProjectsContent() {
                   Book Free Inspection
                 </Link>
                 <a
-                  href="https://wa.me/918618252233?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20see%20more%20of%20your%20projects."
+                  href="https://wa.me/919900281433?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20see%20more%20of%20your%20projects."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn bg-[#25d366] text-white hover:bg-[#20ba59] border-transparent flex-1 min-w-0 sm:flex-none sm:w-auto sm:min-w-[170px] !py-3 sm:!py-3.5 !px-2.5 sm:!px-6 !text-[12.5px] sm:!text-[14.5px] !gap-1.5 shadow-md shadow-[#25d366]/20 text-center justify-center font-bold inline-flex items-center"
@@ -356,7 +356,7 @@ export default function ProjectsContent() {
                 Book a Free Visit
               </Link>
               <a
-                href="https://wa.me/918618252233?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20get%20a%20quote%20for%20my%20home."
+                href="https://wa.me/919900281433?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20get%20a%20quote%20for%20my%20home."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn bg-[#25d366] text-white hover:bg-[#20ba59] border-transparent font-bold flex-1 min-w-0 sm:flex-none sm:w-auto !px-2.5 sm:!px-8 !py-3 sm:!py-3.5 !text-[12.5px] sm:!text-[15px] !gap-1.5 rounded-full shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 text-center justify-center inline-flex items-center"
@@ -418,7 +418,7 @@ export default function ProjectsContent() {
                   Start a Similar Project
                 </Link>
                 <a
-                  href="tel:+918618252233"
+                  href="tel:+919900281433"
                   className="btn btn-outline text-[13.5px] py-3 px-6 rounded-lg text-[#0a6fdb] border-[#bfdbfe] hover:bg-[#e8f1fc] text-center justify-center inline-flex items-center gap-2"
                 >
                   <IconPhone className="w-4 h-4" />

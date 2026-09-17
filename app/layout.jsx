@@ -76,7 +76,7 @@ const jsonLd = {
   name: 'Sadaf Constructions and Renovations',
   image: `${siteUrl}/sadaf-logo-new.png`,
   url: siteUrl,
-  telephone: '+918618252233',
+  telephone: '+919900281433',
   email: 'sadafelectrical786@gmail.com',
   address: {
     '@type': 'PostalAddress',

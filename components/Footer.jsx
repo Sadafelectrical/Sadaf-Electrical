@@ -42,7 +42,7 @@ export default function Footer({
                 {ctaPrimaryLabel}
               </Link>
               <a
-                href={`https://wa.me/918618252233?text=${encodeURIComponent(ctaWhatsappText)}`}
+                href={`https://wa.me/919900281433?text=${encodeURIComponent(ctaWhatsappText)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#25D366] hover:bg-[#20ba59] text-white font-bold px-5 py-3 rounded-full text-[13.5px] transition-all duration-300 shadow-lg hover:-translate-y-0.5 w-full sm:w-auto inline-flex items-center justify-center gap-2"
@@ -162,14 +162,14 @@ export default function Footer({
                 <IconPhone className="w-4 h-4" />
               </div>
               <div className="flex flex-col gap-1.5">
-                <a href="tel:+918618252233" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
-                  +91 86182 52233
-                </a>
                 <a href="tel:+919900281433" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
                   +91 99002 81433
                 </a>
-                <a href="tel:+919743555023" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
-                  +91 97435 55023
+                <a href="tel:+919742555023" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
+                  +91 97425 55023
+                </a>
+                <a href="tel:+919741931730" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
+                  +91 97419 31730
                 </a>
               </div>
             </li>
