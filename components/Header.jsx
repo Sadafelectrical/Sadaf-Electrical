@@ -82,7 +82,7 @@ export default function Header() {
 
         {/* Desktop & Mobile Navigation Links */}
         <nav
-          className={`nav-links flex gap-[38px] max-[992px]:fixed max-[992px]:top-[98px] max-[600px]:top-[82px] max-[992px]:left-0 max-[992px]:right-0 max-[992px]:bg-white max-[992px]:flex-col max-[992px]:gap-0 max-[992px]:px-6 max-[992px]:pb-6 max-[992px]:shadow-[0_12px_24px_rgba(17,24,39,0.08)] max-[992px]:max-h-[calc(100vh-98px)] max-[600px]:max-h-[calc(100vh-82px)] max-[992px]:overflow-y-auto max-[992px]:overscroll-contain scrollbar-hide transition-all duration-200 ${
+          className={`nav-links flex gap-[38px] max-[992px]:fixed max-[992px]:top-[98px] max-[600px]:top-[82px] max-[992px]:left-0 max-[992px]:right-0 max-[992px]:bg-white max-[992px]:flex-col max-[992px]:gap-0 max-[992px]:px-6 max-[992px]:pb-6 max-[992px]:shadow-[0_12px_24px_rgba(17,24,39,0.08)] max-[992px]:max-h-[calc(100dvh-98px)] max-[600px]:max-h-[calc(100dvh-82px)] max-[992px]:overflow-y-auto max-[992px]:overscroll-contain scrollbar-hide transition-all duration-200 ${
             isMenuOpen
               ? 'max-[992px]:translate-y-0 max-[992px]:opacity-100 max-[992px]:visible'
               : 'max-[992px]:-translate-y-3 max-[992px]:opacity-0 max-[992px]:invisible'
