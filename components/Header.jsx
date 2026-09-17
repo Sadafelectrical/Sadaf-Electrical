@@ -128,7 +128,7 @@ export default function Header() {
                   {servicesList.map((service) => (
                     <Link
                       key={service.slug}
-                      href={`/services/${service.slug}`}
+                      href={service.detailsHref || `/services/${service.slug}`}
                       className="group/item flex items-center gap-3 p-3 rounded-xl hover:bg-[#f0f6ff] transition-colors duration-200"
                     >
                       <div className="w-10 h-10 rounded-lg bg-[#f0f6ff] text-[#0a6fdb] flex items-center justify-center shrink-0 group-hover/item:bg-[#0a6fdb] group-hover/item:text-white transition-colors duration-200">
@@ -182,7 +182,7 @@ export default function Header() {
                 {servicesList.map((service) => (
                   <Link
                     key={service.slug}
-                    href={`/services/${service.slug}`}
+                    href={service.detailsHref || `/services/${service.slug}`}
                     onClick={closeMenu}
                     className="flex items-center gap-2.5 py-2 pl-2 text-[13.5px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors"
                   >
@@ -193,7 +193,7 @@ export default function Header() {
                 <Link
                   href="/services"
                   onClick={closeMenu}
-                  className="block pt-1 pl-2 text-[13.5px] font-bold text-[#0a6fdb]"
+                  className="flex items-center justify-center mt-3 py-2.5 rounded-lg bg-[#f0f6ff] text-[13.5px] font-bold text-[#0a6fdb] hover:bg-[#e0edfe] transition-colors"
                 >
                   View All Services
                 </Link>
