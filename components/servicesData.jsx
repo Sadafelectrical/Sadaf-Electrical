@@ -360,7 +360,7 @@ export const servicesList = [
     timeline: 'Project-Based Timeline',
     image: '/Services/GRC Panel Work.png',
     icon: <IconGrcPanel className="w-5 h-5" />,
-    desc: "Custom GRC (Glass Reinforced Concrete) panel fabrication and installation for decorative facades, columns, cornices and screens. Lightweight, durable and weatherproof for Dubai's climate.",
+    desc: "Custom GRC (Glass Reinforced Concrete) panel fabrication and installation for decorative facades, columns, cornices and screens. Lightweight, durable and weatherproof for Bengaluru's climate.",
     features: [
       'Custom mold-cast decorative GRC panels',
       'Facade cladding, columns and cornice work',

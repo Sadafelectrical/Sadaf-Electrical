@@ -73,7 +73,7 @@ export default function ServicesContent() {
             <div className="max-w-[820px] lg:max-w-[560px]">
               <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full bg-[#e8f1fc] text-[#0a6fdb] text-[9.5px] sm:text-[11.5px] font-bold tracking-normal sm:tracking-wider uppercase mb-4 border border-[#bfdbfe] whitespace-nowrap max-w-full">
                 <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-[#0a6fdb] animate-pulse shrink-0" />
-                Licensed Dubai Renovation &amp; Maintenance Team
+                Licensed Bengaluru Renovation &amp; Maintenance Team
               </div>
 
               <h1 className="h2-title text-[32px] sm:text-[42px] lg:text-[48px] leading-[1.15] text-[#111827] mb-4 font-extrabold">
@@ -92,7 +92,7 @@ export default function ServicesContent() {
               </div>
 
               <p className="text-[#4b5563] text-[15.5px] sm:text-[16.5px] leading-[1.7] mb-7 max-w-[700px]">
-                Whether you need a quick repair or a complete apartment makeover, our full-time in-house team of plumbers, electricians, carpenters, and tilers has you covered across Dubai.
+                Whether you need a quick repair or a complete apartment makeover, our full-time in-house team of plumbers, electricians, carpenters, and tilers has you covered across Bengaluru.
               </p>
 
               {/* Quick Trust Pills */}
@@ -326,7 +326,7 @@ export default function ServicesContent() {
             <div className="text-center max-w-[700px] mx-auto mb-12">
               <div className="eyebrow">THE SADAF SERVICE PROMISE</div>
               <h2 className="h2-title text-[26px] sm:text-[34px] text-[#111827] mb-3">
-                Why Dubai Homeowners Trust Us
+                Why Bengaluru Homeowners Trust Us
               </h2>
               <p className="text-[#4b5563] text-[15px]">
                 We make sure your home is respected, protected, and upgraded with total peace of mind.
@@ -394,7 +394,7 @@ export default function ServicesContent() {
                     </div>
                   </div>
                   <p className="text-[13px] sm:text-[13.5px] text-[#4b5563] leading-relaxed">
-                    Call or message us on WhatsApp. We can visit your home anywhere in Dubai for a free consultation.
+                    Call or message us on WhatsApp. We can visit your home anywhere in Bengaluru for a free consultation.
                   </p>
                   <div className="pt-2 flex flex-col sm:flex-row gap-2.5">
                     <a

@@ -2,7 +2,7 @@ import ContactContent from './ContactContent';
 
 export const metadata = {
   title: 'Contact Us',
-  description: 'Get in touch with Sadaf Constructions and Renovations for a free consultation and written quote. Call, WhatsApp or fill out our contact form to start your project in Dubai.',
+  description: 'Get in touch with Sadaf Constructions and Renovations for a free consultation and written quote. Call, WhatsApp or fill out our contact form to start your project in Bengaluru.',
   alternates: {
     canonical: '/contact',
   },

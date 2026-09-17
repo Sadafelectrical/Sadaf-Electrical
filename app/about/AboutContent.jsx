@@ -127,44 +127,44 @@ export default function AboutContent() {
 
   const clientReviews = [
     {
-      name: 'Tariq Al-Hashemi',
-      location: 'Dubai Marina • 2-Bedroom Flat',
+      name: 'Arjun Reddy',
+      location: 'Koramangala • 2-Bedroom Flat',
       stars: 5,
-      text: 'Sadaf renovated our Marina apartment. The kitchen cabinets look great, and the team finished two days ahead of schedule. Very respectful and tidy workers.',
+      text: 'Sadaf renovated our apartment. The kitchen cabinets look great, and the team finished two days ahead of schedule. Very respectful and tidy workers.',
     },
     {
       name: 'Sarah Jenkins',
-      location: 'Arabian Ranches • Villa Owner',
+      location: 'Whitefield • Villa Owner',
       stars: 5,
       text: 'Had our two bathrooms completely remodeled and full villa lighting re-done. The price was clear from day one and they kept the place very clean while working.',
     },
     {
       name: 'Rahul Mehta',
-      location: 'Jumeirah Lake Towers • Apartment',
+      location: 'Indiranagar • Apartment',
       stars: 5,
       text: 'The best part was communication. I received WhatsApp photos every evening showing the progress while I was in the office. Great experience with zero stress.',
     },
     {
-      name: 'Fatima Al Suwaidi',
-      location: 'Mirdif • Villa Owner',
+      name: 'Priya Nataraj',
+      location: 'HSR Layout • Villa Owner',
       stars: 5,
       text: 'They installed CCTV cameras across our whole villa and rewired the garden lighting. Professional team, fair pricing and everything was explained clearly upfront.',
     },
     {
       name: 'James Carter',
-      location: 'Business Bay • Apartment',
+      location: 'Sarjapur Road • Apartment',
       stars: 5,
       text: 'Custom wardrobes and a full carpentry overhaul for our bedroom. The finish quality is excellent and they were done a day earlier than promised.',
     },
     {
-      name: 'Noura Al Zaabi',
-      location: 'Al Barsha • Villa Owner',
+      name: 'Lakshmi Iyer',
+      location: 'JP Nagar • Villa Owner',
       stars: 5,
       text: 'Full villa renovation from civil work to painting. They handled everything, kept us updated daily and the site was always clean when we visited.',
     },
     {
       name: 'Vikram Nair',
-      location: 'Downtown Dubai • Apartment',
+      location: 'MG Road • Apartment',
       stars: 5,
       text: 'Quick and reliable handyman service for a few electrical and plumbing fixes. Showed up on time and the pricing was exactly what was quoted.',
     },
@@ -227,7 +227,7 @@ export default function AboutContent() {
               <div className="lg:col-span-7">
                 <div className="inline-flex items-center gap-2 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-[#e8f1fc] text-[#0a6fdb] text-[11px] sm:text-[12px] font-bold tracking-wider uppercase mb-4 sm:mb-5 border border-[#bfdbfe]">
                   <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-[#0a6fdb]" />
-                  Trusted Dubai Renovation Team
+                  Trusted Bengaluru Renovation Team
                 </div>
 
                 <h1 className="h2-title text-[28px] sm:text-[38px] md:text-[44px] lg:text-[52px] leading-[1.18] sm:leading-[1.15] text-[#111827] mb-4 sm:mb-6 font-extrabold break-words">
@@ -246,7 +246,7 @@ export default function AboutContent() {
                 </div>
 
                 <p className="text-[#4b5563] text-[15px] sm:text-[16.5px] leading-[1.65] max-w-[600px] mb-6 sm:mb-8">
-                  Since 2019, Sadaf has helped hundreds of homeowners in Dubai transform their living spaces. With our own in-house team of plumbers, electricians, carpenters, and tilers, we deliver beautiful work on time and at fair, honest prices.
+                  Since 2019, Sadaf has helped hundreds of homeowners in Bengaluru transform their living spaces. With our own in-house team of plumbers, electricians, carpenters, and tilers, we deliver beautiful work on time and at fair, honest prices.
                 </p>
 
                 {/* Quick Check Highlights */}
@@ -306,7 +306,7 @@ export default function AboutContent() {
                     <div className="p-4 sm:p-5 bg-white border-t border-[#f1f5f9] grid grid-cols-2 divide-x divide-[#f1f5f9] text-center">
                       <div className="pr-3 sm:pr-4">
                         <strong className="block text-[20px] sm:text-[24px] font-extrabold text-[#0a6fdb] leading-none mb-1">5+ Years</strong>
-                        <span className="text-[12px] sm:text-[12.5px] text-[#64748b] font-medium">Serving Dubai Homes</span>
+                        <span className="text-[12px] sm:text-[12.5px] text-[#64748b] font-medium">Serving Bengaluru Homes</span>
                       </div>
                       <div className="pl-3 sm:pl-4">
                         <strong className="block text-[20px] sm:text-[24px] font-extrabold text-[#111827] leading-none mb-1">100+</strong>
@@ -342,7 +342,7 @@ export default function AboutContent() {
             <div className="p-2">
               <div className="text-[28px] sm:text-[34px] md:text-[38px] font-black text-[#0a6fdb] leading-none mb-1">5+</div>
               <div className="text-[13px] sm:text-[14px] font-bold text-[#111827] mb-0.5">Years Experience</div>
-              <span className="text-[11.5px] sm:text-[12.5px] text-[#64748b]">In Dubai &amp; UAE</span>
+              <span className="text-[11.5px] sm:text-[12.5px] text-[#64748b]">In Bengaluru &amp; Karnataka</span>
             </div>
             <div className="p-2">
               <div className="text-[28px] sm:text-[34px] md:text-[38px] font-black text-[#0a6fdb] leading-none mb-1">100%</div>
@@ -370,7 +370,7 @@ export default function AboutContent() {
                 </h2>
                 <div className="space-y-3.5 text-[#4b5563] text-[14.5px] sm:text-[15px] leading-relaxed">
                   <p>
-                    Renovating your home should feel rewarding, but too often in Dubai it becomes a frustrating experience with missed deadlines, shifting prices, and workers who don't clean up after themselves.
+                    Renovating your home should feel rewarding, but too often in Bengaluru it becomes a frustrating experience with missed deadlines, shifting prices, and workers who don't clean up after themselves.
                   </p>
                   <p>
                     We started Sadaf Constructions to offer a better way. We believe in turning up on time, protecting your floors, giving you a fixed price before starting, and taking genuine pride in every tile we lay and every cabinet we build.
@@ -536,7 +536,7 @@ export default function AboutContent() {
           <div className="container-custom">
             <div className="text-center max-w-[720px] mx-auto mb-10 sm:mb-14">
               <div className="eyebrow">PROJECT TIMELINES</div>
-              <h2 className="h2-title text-[26px] sm:text-[32px] md:text-[38px] mb-3">Typical Time Required for Dubai Homes</h2>
+              <h2 className="h2-title text-[26px] sm:text-[32px] md:text-[38px] mb-3">Typical Time Required for Bengaluru Homes</h2>
               <p className="text-[#4b5563] text-[14.5px] sm:text-[15.5px]">
                 We give you a realistic schedule before we begin and stick to it strictly.
               </p>
@@ -580,7 +580,7 @@ export default function AboutContent() {
               <div className="eyebrow">REAL REVIEWS</div>
               <h2 className="h2-title text-[26px] sm:text-[32px] md:text-[38px] mb-3">What Homeowners Say About Us</h2>
               <p className="text-[#4b5563] text-[14.5px] sm:text-[15px]">
-                Honest feedback from residents and landlords across Dubai communities.
+                Honest feedback from residents and landlords across Bengaluru communities.
               </p>
             </div>
 

@@ -15,16 +15,16 @@ export const metadata = {
     default: 'Sadaf Constructions and Renovations | Build · Renovate · Improve',
     template: '%s | Sadaf Constructions and Renovations',
   },
-  description: 'Sadaf Constructions and Renovations – plumbing, electrical, carpentry, home renovation, construction, fabrication and CCTV installation in Dubai, UAE. Free on-site quote, 1-year workmanship warranty.',
+  description: 'Sadaf Constructions and Renovations – plumbing, electrical, carpentry, home renovation, construction, fabrication and CCTV installation in Bengaluru, Karnataka. Free on-site quote, 1-year workmanship warranty.',
   keywords: [
-    'home renovation Dubai',
-    'construction company Dubai',
-    'plumbing services Dubai',
-    'electrical services Dubai',
-    'carpentry Dubai',
-    'CCTV installation Dubai',
-    'villa renovation UAE',
-    'apartment renovation Dubai',
+    'home renovation Bengaluru',
+    'construction company Bengaluru',
+    'plumbing services Bengaluru',
+    'electrical services Bengaluru',
+    'carpentry Bengaluru',
+    'CCTV installation Bengaluru',
+    'villa renovation Karnataka',
+    'apartment renovation Bengaluru',
     'Sadaf Constructions',
   ],
   authors: [{ name: 'Sadaf Constructions and Renovations' }],
@@ -38,11 +38,11 @@ export const metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'en_US',
+    locale: 'en_IN',
     url: siteUrl,
     siteName: 'Sadaf Constructions and Renovations',
     title: 'Sadaf Constructions and Renovations | Build · Renovate · Improve',
-    description: 'Plumbing, electrical, carpentry, home renovation, construction, fabrication and CCTV installation in Dubai, UAE. Free on-site quote, 1-year workmanship warranty.',
+    description: 'Plumbing, electrical, carpentry, home renovation, construction, fabrication and CCTV installation in Bengaluru, Karnataka. Free on-site quote, 1-year workmanship warranty.',
     images: [
       {
         url: '/sadaf-logo-new.png',
@@ -55,7 +55,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Sadaf Constructions and Renovations | Build · Renovate · Improve',
-    description: 'Plumbing, electrical, carpentry, home renovation, construction, fabrication and CCTV installation in Dubai, UAE.',
+    description: 'Plumbing, electrical, carpentry, home renovation, construction, fabrication and CCTV installation in Bengaluru, Karnataka.',
     images: ['/sadaf-logo-new.png'],
   },
   robots: {
@@ -80,13 +80,19 @@ const jsonLd = {
   email: 'sadafelectrical786@gmail.com',
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'Dubai',
-    addressCountry: 'AE',
+    streetAddress: 'Ground Floor, No. 632, 19th Cross, L R Nagar',
+    addressLocality: 'Koramangala, Bengaluru',
+    addressRegion: 'Karnataka',
+    postalCode: '560030',
+    addressCountry: 'IN',
   },
-  areaServed: 'Dubai, UAE',
+  areaServed: 'Bengaluru Urban, Karnataka',
   priceRange: '$$',
   openingHours: 'Mo-Sa 08:00-18:00',
-  sameAs: [],
+  sameAs: [
+    'https://www.facebook.com/share/19MSNnnddi/',
+    'https://www.instagram.com/mohammed1682000',
+  ],
 };
 
 export default function RootLayout({ children }) {

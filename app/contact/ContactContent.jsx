@@ -374,10 +374,10 @@ export default function ContactContent() {
                       <div>
                         <h4 className="text-[14px] font-bold text-[#111827]">Our Location</h4>
                         <p className="text-[14.5px] font-semibold text-[#111827] mt-0.5">
-                          Musterstraße 12, 60326 Frankfurt
+                          Ground Floor, No. 632, 19th Cross, L R Nagar, Koramangala
                         </p>
                         <span className="text-[12.5px] text-[#6b7280] block mt-0.5">
-                          Germany
+                          Bengaluru Urban, Karnataka 560030
                         </span>
                       </div>
                     </div>
@@ -408,11 +408,11 @@ export default function ContactContent() {
         <section className="pb-16 sm:pb-20 bg-white">
           <div className="container-custom">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-stretch">
-              {/* Left Column: Interactive Map of Frankfurt am Main */}
+              {/* Left Column: Interactive Map of Koramangala, Bengaluru */}
               <div className="lg:col-span-7 relative min-h-[340px] sm:min-h-[380px] rounded-2xl overflow-hidden border border-[#e2e8f0] shadow-sm">
                 <iframe
                   title="Sadaf Constructions Location Map"
-                  src="https://maps.google.com/maps?q=Frankfurt+am+Main+Germany&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=Koramangala+Bengaluru+Karnataka+560030&t=&z=13&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0, minHeight: '360px' }}
@@ -421,19 +421,6 @@ export default function ContactContent() {
                   referrerPolicy="no-referrer-when-downgrade"
                   className="w-full h-full"
                 />
-
-                {/* Floating Map Pin Badge matching exact mockup */}
-                <div className="absolute top-8 left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-1/2 bg-white px-4 py-2.5 rounded-xl border border-black/10 shadow-lg flex items-center gap-2.5 pointer-events-none z-10">
-                  <div className="w-3.5 h-3.5 rounded-full bg-[#ef4444] animate-pulse shrink-0" />
-                  <div>
-                    <h5 className="text-[12.5px] font-bold text-[#111827] leading-tight">
-                      Sadaf Constructions
-                    </h5>
-                    <span className="text-[11px] text-[#6b7280] leading-tight block">
-                      and Renovations
-                    </span>
-                  </div>
-                </div>
               </div>
 
               {/* Right Column: Visit Our Office Card with lets-discuss.png */}
@@ -465,7 +452,7 @@ export default function ContactContent() {
 
                 <div className="relative z-10">
                   <a
-                    href="https://www.google.com/maps/search/?api=1&query=Musterstra%C3%9Fe+12+60326+Frankfurt+Germany"
+                    href="https://www.google.com/maps/search/?api=1&query=No.+632%2C+19th+Cross%2C+L+R+Nagar%2C+Koramangala%2C+Bengaluru%2C+Karnataka+560030"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border border-white/90 hover:bg-white hover:text-[#111827] text-white font-semibold py-2.5 px-6 rounded-full text-[13.5px] transition-all inline-flex items-center gap-2"

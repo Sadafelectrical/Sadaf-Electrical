@@ -21,7 +21,7 @@ const projectsData = [
     category: 'renovation',
     tag: 'Full Renovation',
     title: 'Complete Flat Renovation',
-    location: 'City Apartments, Dubai',
+    location: 'City Apartments, Bengaluru',
     image: '/Some of Our Work/Complete Flat Renovation.png',
     desc: 'A full end-to-end apartment makeover covering demolition, flooring, false ceilings, and custom joinery delivered in under 4 weeks.',
   },
@@ -57,7 +57,7 @@ const projectsData = [
     category: 'kitchen',
     tag: 'Kitchen Upgrade',
     title: 'Kitchen Renovation',
-    location: 'Al Barsha Residence',
+    location: 'Koramangala Residence',
     image: '/BeforeAndAfter/Kitchen Renovation-a.png',
     desc: 'Complete transformation from a dated layout into a bright, functional modern cooking space.',
   },
@@ -66,7 +66,7 @@ const projectsData = [
     category: 'bathroom',
     tag: 'Bathroom Remodel',
     title: 'Bathroom Upgrade',
-    location: 'Jumeirah Village',
+    location: 'Whitefield',
     image: '/BeforeAndAfter/Bathroom Upgrade-a.png',
     desc: 'Compact bathroom reimagined with a sleek, spa-inspired finish and better use of space.',
   },
@@ -84,7 +84,7 @@ const projectsData = [
     category: 'renovation',
     tag: 'Living Room Makeover',
     title: 'Living Room Makeover',
-    location: 'Mirdif Villas',
+    location: 'Sarjapur Villas',
     image: '/BeforeAndAfter/Living Room Makeover-a.png',
     desc: 'Living space reworked with a modern feature wall, new flooring, and warm ambient lighting.',
   },
@@ -127,7 +127,7 @@ export default function ProjectsContent() {
             <div className="max-w-[820px] lg:max-w-[560px]">
               <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-full bg-[#e8f1fc] text-[#0a6fdb] text-[9.5px] sm:text-[11.5px] font-bold tracking-normal sm:tracking-wider uppercase mb-4 border border-[#bfdbfe] whitespace-nowrap max-w-full">
                 <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-[#0a6fdb] animate-pulse shrink-0" />
-                100+ Homes Transformed Across Dubai
+                100+ Homes Transformed Across Bengaluru
               </div>
 
               <h1 className="h2-title text-[32px] sm:text-[42px] lg:text-[48px] leading-[1.15] text-[#111827] mb-4 font-extrabold">
@@ -145,7 +145,7 @@ export default function ProjectsContent() {
               </div>
 
               <p className="text-[#4b5563] text-[15.5px] sm:text-[16.5px] leading-[1.7] mb-7 max-w-[700px]">
-                Browse a selection of our recent renovation, kitchen, bathroom and security installation projects across Dubai and the UAE.
+                Browse a selection of our recent renovation, kitchen, bathroom and security installation projects across Bengaluru and Karnataka.
               </p>
 
               <div className="flex flex-wrap items-center gap-2.5 sm:gap-3 mb-8 text-[12.5px] sm:text-[13px] text-[#334155] font-medium">
@@ -195,7 +195,7 @@ export default function ProjectsContent() {
             <div className="p-2">
               <div className="text-[28px] sm:text-[34px] md:text-[38px] font-black text-[#0a6fdb] leading-none mb-1">5+</div>
               <div className="text-[13px] sm:text-[14px] font-bold text-[#111827] mb-0.5">Years Experience</div>
-              <span className="text-[11.5px] sm:text-[12.5px] text-[#64748b]">In Dubai &amp; UAE</span>
+              <span className="text-[11.5px] sm:text-[12.5px] text-[#64748b]">In Bengaluru &amp; Karnataka</span>
             </div>
             <div className="p-2">
               <div className="text-[28px] sm:text-[34px] md:text-[38px] font-black text-[#0a6fdb] leading-none mb-1">100%</div>

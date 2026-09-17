@@ -6,7 +6,6 @@ import {
   IconPin,
   IconFacebook,
   IconInstagram,
-  IconLinkedIn,
   IconWhatsapp,
 } from './Icons';
 
@@ -71,25 +70,22 @@ export default function Footer({
 
           <div className="flex gap-2.5 mt-6">
             <a
-              href="#"
+              href="https://www.facebook.com/share/19MSNnnddi/"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Facebook"
               className="w-9 h-9 rounded-full bg-[#f0f6ff] border border-[#dbeafe] text-[#0a6fdb] flex items-center justify-center transition-all duration-250 hover:bg-[#0a6fdb] hover:text-white hover:-translate-y-0.5 hover:shadow-md"
             >
               <IconFacebook className="w-4 h-4" />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/mohammed1682000"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram"
               className="w-9 h-9 rounded-full bg-[#f0f6ff] border border-[#dbeafe] text-[#0a6fdb] flex items-center justify-center transition-all duration-250 hover:bg-[#0a6fdb] hover:text-white hover:-translate-y-0.5 hover:shadow-md"
             >
               <IconInstagram className="w-4 h-4" />
-            </a>
-            <a
-              href="#"
-              aria-label="LinkedIn"
-              className="w-9 h-9 rounded-full bg-[#f0f6ff] border border-[#dbeafe] text-[#0a6fdb] flex items-center justify-center transition-all duration-250 hover:bg-[#0a6fdb] hover:text-white hover:-translate-y-0.5 hover:shadow-md"
-            >
-              <IconLinkedIn className="w-4 h-4" />
             </a>
           </div>
         </div>
@@ -189,7 +185,7 @@ export default function Footer({
               <div className="w-9 h-9 rounded-full bg-[#f0f6ff] border border-[#dbeafe] text-[#0a6fdb] flex items-center justify-center shrink-0">
                 <IconPin className="w-4 h-4" />
               </div>
-              <span className="text-[14px] text-[#4b5563] font-medium">Dubai, UAE</span>
+              <span className="text-[14px] text-[#4b5563] font-medium">Koramangala, Bengaluru, Karnataka 560030</span>
             </li>
           </ul>
         </div>

@@ -9,19 +9,19 @@ const testimonials = [
     quote:
       'Sadaf Constructions renovated our entire flat and the results were amazing! Professional team, on-time delivery and excellent quality. Highly recommended!',
     author: 'Ayesha Khan',
-    role: 'Homeowner, Dubai',
+    role: 'Homeowner, Bengaluru',
   },
   {
     quote:
       'They rewired our whole villa and installed CCTV in two days. Clean work, clear pricing and the team explained everything before starting.',
     author: 'Rahul Mehta',
-    role: 'Villa Owner, Sharjah',
+    role: 'Villa Owner, Whitefield',
   },
   {
     quote:
       'Our old kitchen looks brand new. The custom cabinets are beautifully made and the project was finished a day ahead of schedule.',
     author: 'Fatima Al Sayed',
-    role: 'Homeowner, Abu Dhabi',
+    role: 'Homeowner, Koramangala',
   },
 ];
 
