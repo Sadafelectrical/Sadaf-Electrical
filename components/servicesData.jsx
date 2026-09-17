@@ -168,7 +168,7 @@ export const servicesList = [
     tagline: 'Custom Interior Styling & Space Planning',
     title: 'Interior Design',
     timeline: 'Design in 1–2 Weeks',
-    image: '/Services/Interior Design.svg',
+    image: '/Services/Interior Design.png',
     icon: <IconSofa className="w-5 h-5" />,
     desc: 'Full interior design service covering space planning, material selection, and styling for homes and offices. Our designers create a look that matches your lifestyle and budget before any work begins on site.',
     features: [
@@ -187,7 +187,7 @@ export const servicesList = [
     tagline: 'UPVC & Aluminum Window Systems',
     title: 'UPVC Window Installation',
     timeline: 'Fitted in 1–3 Days',
-    image: '/Services/UPVC Window Installation.svg',
+    image: '/Services/UPVC Window Installation.png',
     icon: <IconWindow className="w-5 h-5" />,
     desc: 'Supply and installation of UPVC and aluminum windows that seal out heat, dust and noise. Built with reinforced multi-chamber profiles and double-glazed glass for lasting performance.',
     features: [
@@ -206,7 +206,7 @@ export const servicesList = [
     tagline: 'Interior Walls & Exterior Facades',
     title: 'Painting – Interior & Exterior',
     timeline: '2–5 Days Turnaround',
-    image: '/Services/Interior and Exterior Painting.svg',
+    image: '/Services/interior and exterior paint.png',
     icon: <IconPaintRoller className="w-5 h-5" />,
     desc: 'Professional painting for interior walls, ceilings and exterior facades using weather-resistant, low-VOC paints. We prep surfaces properly so the finish stays smooth and long-lasting.',
     features: [
@@ -225,7 +225,7 @@ export const servicesList = [
     tagline: 'Decorative Textures & Dco Finishes',
     title: 'Texture Paint & Dco Paint',
     timeline: '3–6 Days Turnaround',
-    image: '/Services/Texture and Dco Paint.svg',
+    image: '/Services/Texture and Paint.png',
     icon: <IconTexture className="w-5 h-5" />,
     desc: 'Decorative texture and Dco paint finishes that turn a plain wall into a feature wall. From stone-effect textures to smooth metallic Dco coats, applied by experienced finishers.',
     features: [
@@ -244,7 +244,7 @@ export const servicesList = [
     tagline: 'Furniture, Doors & Wood Flooring Polish',
     title: 'Wood Polish',
     timeline: '1–3 Days Turnaround',
-    image: '/Services/Wood Polish.svg',
+    image: '/Services/Wood Polish.png',
     icon: <IconPolish className="w-5 h-5" />,
     desc: 'Restore the natural shine of doors, furniture and wooden flooring with professional sanding, staining and polishing. We revive old wood or protect new woodwork against daily wear.',
     features: [
@@ -263,7 +263,7 @@ export const servicesList = [
     tagline: 'Floor, Wall & Outdoor Tiling',
     title: 'Tiles Work',
     timeline: '3–7 Days Turnaround',
-    image: '/Services/Tiles Work.svg',
+    image: '/Services/Tiles Work.png',
     icon: <IconTiles className="w-5 h-5" />,
     desc: 'Floor, wall and outdoor tiling with porcelain, ceramic, marble and mosaic tiles, laid with precise leveling and grouting. Includes old tile removal and surface preparation.',
     features: [
@@ -282,7 +282,7 @@ export const servicesList = [
     tagline: 'Modular Kitchens & Countertop Upgrades',
     title: 'Kitchen Renovation',
     timeline: '1–3 Weeks Turnaround',
-    image: '/Services/Kitchen Renovation.svg',
+    image: '/Services/Kitchen Renovation.png',
     icon: <IconKitchen className="w-5 h-5" />,
     desc: 'Complete kitchen makeovers from modular cabinets to quartz countertops and new plumbing/electrical points. We manage the full renovation so your kitchen is upgraded with zero hassle.',
     features: [
@@ -301,7 +301,7 @@ export const servicesList = [
     tagline: 'Full Washroom Makeovers',
     title: 'Bathroom Renovation',
     timeline: '5–7 Days Turnaround',
-    image: '/Services/Bathroom Renovation.svg',
+    image: '/Services/Bathroom Renovation.png',
     icon: <IconBath className="w-5 h-5" />,
     desc: 'Full bathroom makeovers covering tiling, waterproofing, vanities and modern fittings. We handle demolition to final handover so your new washroom is ready to use fast.',
     features: [
@@ -320,7 +320,7 @@ export const servicesList = [
     tagline: 'Gypsum False Ceilings & Cove Lighting',
     title: 'False Ceiling',
     timeline: '2–4 Days Turnaround',
-    image: '/Services/False Ceiling.svg',
+    image: '/Services/False Ceiling.png',
     icon: <IconCeiling className="w-5 h-5" />,
     desc: 'Gypsum false ceilings with cove and indirect LED lighting that hide wiring and give rooms a clean, modern finish. Designed for living rooms, bedrooms, offices and ceiling repairs.',
     features: [
@@ -339,7 +339,7 @@ export const servicesList = [
     tagline: 'Interior & Exterior Cladding Panels',
     title: 'Wall Paneling & Cladding',
     timeline: '3–6 Days Turnaround',
-    image: '/Services/Wall Paneling and Cladding.svg',
+    image: '/Services/Wall Paneling & Cladding.png',
     icon: <IconWallPanel className="w-5 h-5" />,
     desc: "Wood, PVC, WPC and stone-effect wall paneling and cladding for interior feature walls and exterior facades. Adds texture, insulation and a premium finish to any wall.",
     features: [
@@ -358,7 +358,7 @@ export const servicesList = [
     tagline: 'Glass Reinforced Concrete Panels',
     title: 'GRC Panel Work',
     timeline: 'Project-Based Timeline',
-    image: '/Services/GRC Panel Work.svg',
+    image: '/Services/GRC Panel Work.png',
     icon: <IconGrcPanel className="w-5 h-5" />,
     desc: "Custom GRC (Glass Reinforced Concrete) panel fabrication and installation for decorative facades, columns, cornices and screens. Lightweight, durable and weatherproof for Dubai's climate.",
     features: [
@@ -377,7 +377,7 @@ export const servicesList = [
     tagline: 'Window Frame Fitting, Packing & Protection',
     title: 'Window Carton Work',
     timeline: '1–2 Days Turnaround',
-    image: '/Services/Window Carton Work.svg',
+    image: '/Services/Window Carton Work.png',
     icon: <IconCarton className="w-5 h-5" />,
     desc: 'Careful fitting, cartoning and edge protection of window frames and glass panels during installation, ensuring scratch-free, secure delivery and fixing on site.',
     features: [
@@ -396,7 +396,7 @@ export const servicesList = [
     tagline: 'Glass Partitions, Mirrors & Glazing',
     title: 'Glass Work',
     timeline: '2–4 Days Turnaround',
-    image: '/Services/Glass Work.svg',
+    image: '/Services/Glass Work.png',
     icon: <IconGlass className="w-5 h-5" />,
     desc: 'Custom glass cutting and installation for shower enclosures, partitions, mirrors, tabletops and balustrades. Tempered and laminated glass options for safety and style.',
     features: [
@@ -415,7 +415,7 @@ export const servicesList = [
     tagline: 'Apartment Styling & Decor Setup',
     title: 'Flat Decor',
     timeline: '2–5 Days Turnaround',
-    image: '/Services/Flat Decor.svg',
+    image: '/Services/Flat Decor.png',
     icon: <IconDecor className="w-5 h-5" />,
     desc: 'Styling and decor setup for apartments, from curtains and wall art to furniture arrangement and accent lighting, so your flat feels complete and move-in ready.',
     features: [
@@ -434,7 +434,7 @@ export const servicesList = [
     tagline: 'Marble, Granite & Tile Floor Polishing',
     title: 'Floor Polish',
     timeline: '1–2 Days Turnaround',
-    image: '/Services/Floor Polish.svg',
+    image: '/Services/Floor Polish.png',
     icon: <IconFloorPolish className="w-5 h-5" />,
     desc: 'Diamond grinding and polishing for marble, granite and terrazzo floors that brings back a mirror-like shine and removes scratches, stains and dullness.',
     features: [
@@ -453,7 +453,7 @@ export const servicesList = [
     tagline: 'Post-Renovation & Deep Cleaning',
     title: 'Cleaning Work',
     timeline: 'Same-Day Service',
-    image: '/Services/Cleaning Work.svg',
+    image: '/Services/Cleaning Work.png',
     icon: <IconCleaning className="w-5 h-5" />,
     desc: 'Deep cleaning and post-renovation cleanup that clears dust, paint residue and construction debris, leaving your home spotless and ready to move into.',
     features: [
@@ -467,6 +467,7 @@ export const servicesList = [
   {
     id: '24',
     slug: 'custom-projects',
+    detailsHref: '/services',
     category: 'renovation',
     badge: 'Bespoke Requests',
     tagline: 'Custom Projects, Handyman & Special Works',

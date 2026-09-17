@@ -143,7 +143,7 @@ export const IconMail = ({ className = "w-4 h-4", ...props }) => (
 );
 
 export const IconPin = ({ className = "w-4 h-4", ...props }) => (
-  <MapPin className={className} fill="currentColor" {...props} />
+  <MapPin className={className} fill="none" {...props} />
 );
 
 export const IconFacebook = ({ className = "w-4 h-4", ...props }) => (

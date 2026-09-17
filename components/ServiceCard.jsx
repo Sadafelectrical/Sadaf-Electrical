@@ -20,16 +20,16 @@ export default function ServiceCard({ service, index = 0 }) {
           <h3>{service.title}</h3>
           <p className="hidden sm:block">{service.tagline}</p>
         </div>
-        <div className="flex items-center gap-1.5 sm:gap-3 mt-3 sm:mt-6">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-3 mt-3 sm:mt-4">
           <Link
-            href={`/services/${service.slug}`}
-            className="btn btn-outline !text-[10.5px] sm:!text-[13px] !py-1.5 sm:!py-2.5 !px-1.5 sm:!px-4 rounded-md flex-1 min-w-0 text-center justify-center font-bold"
+            href={service.detailsHref || `/services/${service.slug}`}
+            className="btn btn-outline !text-[12px] sm:!text-[13px] !py-2 sm:!py-2.5 !px-2 sm:!px-4 rounded-md flex-1 min-w-0 text-center justify-center font-bold"
           >
             View Details
           </Link>
           <a
             href="/contact"
-            className="btn btn-primary !text-[10.5px] sm:!text-[13px] !py-1.5 sm:!py-2.5 !px-1.5 sm:!px-4 rounded-md flex-1 min-w-0 text-center justify-center font-bold"
+            className="btn btn-primary !text-[12px] sm:!text-[13px] !py-2 sm:!py-2.5 !px-2 sm:!px-4 rounded-md flex-1 min-w-0 text-center justify-center font-bold"
           >
             Contact Now
           </a>

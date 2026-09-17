@@ -21,7 +21,7 @@ export default function Footer({
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-white border-t border-[#e5e9f0] overflow-hidden">
+    <footer className="relative bg-[#f8fafc] border-t border-[#e5e9f0] overflow-hidden">
       {/* Glowing CTA strip */}
       {showCta && (
         <div className="relative bg-gradient-to-r from-[#0c1b2f] via-[#0e2138] to-[#0a6fdb] overflow-hidden">
@@ -59,13 +59,13 @@ export default function Footer({
       {/* Subtle blueprint watermark */}
       <div className={`absolute ${showCta ? 'top-[92px]' : 'top-0'} left-0 w-full h-full opacity-[0.035] pointer-events-none bg-[radial-gradient(#0a6fdb_1px,transparent_1px)] [background-size:26px_26px]`} />
 
-      <div className="container-custom relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1.2fr] gap-10 max-[600px]:gap-[30px] pt-20 sm:pt-24 pb-14 sm:pb-16">
+      <div className="container-custom relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1.2fr] gap-x-10 gap-y-12 pt-16 sm:pt-20 pb-12 sm:pb-14">
         {/* Brand info */}
         <div>
           <Link href="/" className="inline-block" aria-label="Sadaf Constructions home">
-            <img src="/sadaf-logo-new.png" alt="Sadaf Constructions" className="h-[70px] max-[600px]:h-[56px] w-auto object-contain" />
+            <img src="/sadaf-logo-new.png" alt="Sadaf Constructions" className="h-[62px] max-[600px]:h-[52px] w-auto object-contain" />
           </Link>
-          <p className="text-[14px] text-[#4b5563] mt-[18px] max-w-[300px] leading-relaxed">
+          <p className="text-[14px] text-[#4b5563] mt-4 max-w-[300px] leading-relaxed">
             Building better homes with quality, trust and expertise. Your vision. Our work.
           </p>
 
@@ -155,17 +155,17 @@ export default function Footer({
         </div>
 
         {/* Contact Info */}
-        <div>
+        <div className="mb-6 sm:mb-0">
           <h4 className="text-[15px] font-bold mb-5 text-[#111827] relative inline-block">
             Contact Us
             <span className="absolute -bottom-2 left-0 w-8 h-[3px] rounded-full bg-[#0a6fdb]" />
           </h4>
-          <ul className="space-y-4 mt-4">
+          <ul className="space-y-5 mt-4">
             <li className="flex items-start gap-3">
-              <div className="w-9 h-9 rounded-full bg-[#f0f6ff] border border-[#dbeafe] text-[#0a6fdb] flex items-center justify-center shrink-0">
+              <div className="w-9 h-9 rounded-full bg-[#f0f6ff] border border-[#dbeafe] text-[#0a6fdb] flex items-center justify-center shrink-0 mt-0.5">
                 <IconPhone className="w-4 h-4" />
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col gap-1.5">
                 <a href="tel:+918618252233" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
                   +91 86182 52233
                 </a>
@@ -195,11 +195,27 @@ export default function Footer({
         </div>
       </div>
 
-      <div className="container-custom relative z-10 border-t border-[#e5e9f0] pt-6 sm:pt-5 pb-8 sm:pb-7 flex justify-between gap-4 flex-wrap max-[600px]:flex-col max-[600px]:gap-2 max-[600px]:text-center text-[13px] text-[#6b7280]">
-        <span>&copy; {currentYear} Sadaf Constructions and Renovations. All Rights Reserved.</span>
-        <span>
-          Built with <span className="text-[#e11d48]">&hearts;</span> for better homes.
-        </span>
+      <div className="border-t border-[#e5e9f0]">
+        <div className="container-custom relative z-10 !py-6 max-[600px]:!pt-4 max-[600px]:!pb-5 flex justify-between items-center gap-3 flex-wrap max-[600px]:flex-col max-[600px]:text-center text-[12.5px] text-[#8a94a6]">
+          <span>&copy; {currentYear} Sadaf Constructions and Renovations. All Rights Reserved.</span>
+          <span className="flex flex-col sm:flex-row items-center gap-0.5 sm:gap-0 text-[12.5px]">
+            <span className="whitespace-nowrap">
+              Built with <span className="text-[#e11d48]">&hearts;</span> for better homes
+            </span>
+            <span className="hidden sm:inline mx-1.5 text-[#c7d2e0]">&bull;</span>
+            <span className="whitespace-nowrap">
+              Developed by{' '}
+              <a
+                href="https://nexa-solutions.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-[#0a6fdb] hover:text-[#0857ad] transition-colors"
+              >
+                Nexa Solutions
+              </a>
+            </span>
+          </span>
+        </div>
       </div>
     </footer>
   );
