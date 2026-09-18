@@ -42,7 +42,7 @@ export default function Footer({
                 {ctaPrimaryLabel}
               </Link>
               <a
-                href={`https://wa.me/919900281433?text=${encodeURIComponent(ctaWhatsappText)}`}
+                href={`https://wa.me/919741931730?text=${encodeURIComponent(ctaWhatsappText)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#25D366] hover:bg-[#20ba59] text-white font-bold px-5 py-3 rounded-full text-[13.5px] transition-all duration-300 shadow-lg hover:-translate-y-0.5 w-full sm:w-auto inline-flex items-center justify-center gap-2"
@@ -127,22 +127,22 @@ export default function Footer({
           </h4>
           <ul className="space-y-[11px] mt-3">
             {[
-              'Plumbing',
-              'Electrical',
-              'Carpenter',
-              'Home Renovation',
-              'Construction',
-              'Fabrication',
-              'Camera Installation',
+              { label: 'Construction', slug: 'civil-construction-works' },
+              { label: 'Home Renovation', slug: 'full-home-renovation' },
+              { label: 'Interior', slug: 'interior-design' },
+              { label: 'Electrical', slug: 'electrical-lighting' },
+              { label: 'Plumbing', slug: 'plumbing-bathroom-remodel' },
+              { label: 'Fabrication', slug: 'metal-fabrication-gates' },
+              { label: 'Camera Installation', slug: 'cctv-camera-installation' },
             ].map((service) => (
-              <li key={service}>
+              <li key={service.slug}>
                 <Link
-                  href="/services"
+                  href={`/services/${service.slug}`}
                   className="group text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 inline-flex items-center gap-2"
                 >
                   <span className="w-1 h-1 rounded-full bg-[#c7d2e0] group-hover:bg-[#0a6fdb] transition-colors duration-200" />
                   <span className="group-hover:translate-x-0.5 transition-transform duration-200">
-                    {service}
+                    {service.label}
                   </span>
                 </Link>
               </li>
@@ -162,14 +162,14 @@ export default function Footer({
                 <IconPhone className="w-4 h-4" />
               </div>
               <div className="flex flex-col gap-1.5">
-                <a href="tel:+919900281433" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
-                  +91 99002 81433
+                <a href="tel:+919741931730" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
+                  +91 97419 31730
                 </a>
                 <a href="tel:+919742555023" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
                   +91 97425 55023
                 </a>
-                <a href="tel:+919741931730" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
-                  +91 97419 31730
+                <a href="tel:+919900281433" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
+                  +91 99002 81433
                 </a>
                 <a href="tel:+918618252233" className="text-[14px] text-[#4b5563] hover:text-[#0a6fdb] transition-colors duration-200 font-medium">
                   +91 86182 52233
