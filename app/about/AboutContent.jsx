@@ -658,10 +658,10 @@ export default function AboutContent() {
                   </p>
                   <div className="pt-2 flex flex-col sm:flex-row gap-2.5">
                     <a
-                      href="tel:+919741931730"
+                      href="tel:+919742255503"
                       className="btn btn-primary text-[13px] py-2.5 px-4 rounded-lg w-full sm:w-auto text-center justify-center"
                     >
-                      Call +91 97419 31730
+                      Call +91 97422 55503
                     </a>
                     <Link
                       href="/#contact"
@@ -741,7 +741,7 @@ export default function AboutContent() {
                 Get a Free Quote
               </Link>
               <a
-                href="tel:+919741931730"
+                href="tel:+919742255503"
                 className="btn border-2 border-white/70 text-white hover:bg-white hover:text-[#0a6fdb] font-bold flex-1 min-w-0 sm:flex-none sm:w-auto !px-2.5 sm:!px-8 !py-3 sm:!py-3.5 !text-[12.5px] sm:!text-[15px] !gap-1.5 rounded-full hover:-translate-y-0.5 transition-all duration-300 text-center justify-center inline-flex items-center"
               >
                 <IconPhone className="w-4 h-4 shrink-0" />

@@ -123,7 +123,7 @@ export default function ServicesContent() {
                   Book Free Inspection
                 </Link>
                 <a
-                  href="https://wa.me/919741931730?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20inquire%20about%20your%20services."
+                  href="https://wa.me/919742255503?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20inquire%20about%20your%20services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn bg-[#25d366] text-white hover:bg-[#20ba59] border-transparent flex-1 min-w-0 sm:flex-none sm:w-auto sm:min-w-[170px] !py-3 sm:!py-3.5 !px-2.5 sm:!px-6 !text-[12.5px] sm:!text-[14.5px] !gap-1.5 shadow-md shadow-[#25d366]/20 text-center justify-center font-bold inline-flex items-center"
@@ -398,10 +398,10 @@ export default function ServicesContent() {
                   </p>
                   <div className="pt-2 flex flex-col sm:flex-row gap-2.5">
                     <a
-                      href="tel:+919741931730"
+                      href="tel:+919742255503"
                       className="btn btn-primary text-[13px] py-2.5 px-4 rounded-lg w-full sm:w-auto text-center justify-center font-bold"
                     >
-                      Call +91 97419 31730
+                      Call +91 97422 55503
                     </a>
                     <Link
                       href="/contact"
@@ -481,7 +481,7 @@ export default function ServicesContent() {
                 Book a Free Visit
               </Link>
               <a
-                href="https://wa.me/919741931730?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20get%20a%20quote%20for%20my%20home."
+                href="https://wa.me/919742255503?text=Hi%20Sadaf%20Constructions,%20I%20would%20like%20to%20get%20a%20quote%20for%20my%20home."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn bg-[#25d366] text-white hover:bg-[#20ba59] border-transparent font-bold flex-1 min-w-0 sm:flex-none sm:w-auto !px-2.5 sm:!px-8 !py-3 sm:!py-3.5 !text-[12.5px] sm:!text-[15px] !gap-1.5 rounded-full shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 text-center justify-center inline-flex items-center"

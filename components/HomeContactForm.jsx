@@ -39,7 +39,7 @@ export default function HomeContactForm() {
 Sent via Sadaf Website Contact Form`;
 
     const encodedText = encodeURIComponent(text);
-    const whatsappUrl = `https://wa.me/919741931730?text=${encodedText}`;
+    const whatsappUrl = `https://wa.me/919742255503?text=${encodedText}`;
 
     setSubmitted(true);
 
